@@ -1,0 +1,20 @@
+Remove
+
+ambos os casos tem que atualizar a ref
+
+1º caso com duas variaveis
+- o aux varre a lista
+
+- o ant salva o elemento anterior, para o caso de aux encontrar o elemento a ser removido
+e acabar sendo perdido a ref do elemento anterior, nao conseguindo assim acessar os proximos
+elementos da lista
+
+- 
+
+2º caso com uma variavel p
+
+- o p avalia sempre o proximo elemento
+- verificar situacao:
+	- em que se trata do primeiro elemento
+	- do ultimo elemento (p nao deve chegar ate elemento pq o proximo elemento é null
+
