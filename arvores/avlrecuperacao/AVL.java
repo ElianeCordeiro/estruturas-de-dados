@@ -182,7 +182,7 @@ public class AVL {
     private void preOrdem(No no, StringBuilder resultado) {
 
         if (no != null) {
-        	resultado.append(no.info).append(" ");
+        	resultado.append(no.info).append("(").append(fatorBalanceamento(no)).append(") ");
             preOrdem(no.esquerda, resultado);
             preOrdem(no.direita, resultado);
         }
